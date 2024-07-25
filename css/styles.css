@@ -1,0 +1,30 @@
+:root {
+--link-color:#292F36;
+}
+
+
+.container {
+    width: 1200px;
+    outline: 1px solid red;
+    margin: auto;
+}
+
+.header-box {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--link-color);
+font-family: Jost;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 157.895% */
+letter-spacing: 0.4px;
+}
