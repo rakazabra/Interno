@@ -1,30 +1,148 @@
 :root {
---link-color:#292F36;
+  --link-color: #292f36;
+  --hover-link: #cda274;
+  --desc-color: #4D5053;
+  --white: #fff;
 }
 
+.header {
+    padding-top: 26px;
+    justify-content: center;
+
+}
 
 .container {
-    width: 1200px;
-    outline: 1px solid red;
-    margin: auto;
+  width: 1200px;
+  outline: 1px solid red;
+  margin: auto;
 }
 
+
 .header-box {
-    display: flex;
+  display: flex;
+}
+
+.header-logo {
+    padding-top: 26px;
+    margin-right: 484px;
+    padding-bottom: 12px;
 }
 
 .nav-list {
-    display: flex;
-    gap: 40px;
-    align-items: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .nav-link {
+  color: var(--link-color);
+  font-family: "Jost";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-link);
+}
+
+.active {
+    color: var(--hover-link)                ;
+}
+
+
+.hero {
+    background-image: url(../img/hero-bcg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 831px;
+    margin: auto;
+}
+
+.hero-logo {
     color: var(--link-color);
-font-family: Jost;
-font-size: 19px;
+font-family: "DM Serif Display";
+font-size: 80px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 157.895% */
-letter-spacing: 0.4px;
+line-height: 96px; 
+letter-spacing: 0.22px;
+padding-top: 188px;
 }
+
+.hero-desc {
+font-family: 'Jost';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: var(--desc-color);
+margin-top: 19px;
+margin-bottom: 35px;
+}
+
+.hero-button {
+    background-color: var(--link-color);
+    color: var(--white);
+font-family: 'Jost';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.72px; 
+width: 207px;
+height: 71px;
+border-radius: 18px;
+}
+
+.button-str {
+    color: var(--hover-link);
+}
+
+.desc {
+    padding-top: 175px;
+}
+
+.desc-list {
+    display: flex;
+}
+
+.desc-item {
+    padding-right: 41px;
+    padding-left: 42px;
+}
+
+.desc-title {
+    color:var(--link-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0.22px;
+margin-bottom: 17px;
+}
+
+
+
+.desc-desc {
+    color: var(--desc-color);
+text-align: center;
+font-family: 'Jost';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+}
+
+

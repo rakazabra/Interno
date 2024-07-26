@@ -17,15 +17,20 @@
     <!-- навігація, голова сайту -->
     <header class="header">
       <div class="header-box container">
-        <img src="./img/main-logo.png" alt="лого" class="header-logo" />
+        <a href="#" class="logo-link"
+          ><img src="./img/main-logo.png" alt="лого" class="header-logo"
+        /></a>
 
         <nav class="header-nav">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link active">Home</a>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -33,17 +38,54 @@
 
       <main class="main">
         <section class="hero">
-          <h1 class="hero-logo">
-            Let's Create Your <br />
-            Dream Interior
-          </h1>
+          <div class="container">
+            <h1 class="hero-logo">
+              Let's Create Your <br />
+              Dream Interior
+            </h1>
 
-          <p class="hero-desc">
-            The world needs innovators and problem solvers who turn <br />
-            challenges into greater opportunities.
-          </p>
+            <p class="hero-desc">
+              The world needs innovators and problem solvers who turn <br />
+              challenges into greater opportunities.
+            </p>
 
-          <button class="hero-button">Get Started</button>
+            <button class="hero-button">
+              Get Started <span class="button-str">&#8594;</span>
+            </button>
+          </div>
+        </section>
+        <section class="desc">
+          <div class="container">
+            <ul class="desc-list">
+              <li class="desc-item">
+                <h3 class="desc-title">Interior Design</h3>
+                <p class="desc-desc">
+                  Enhancing the interior to achieve <br />
+                  a healthier environment for the<br />
+                  people using right space.
+                </p>
+                <a href="#" class="desc-view">View More</a>
+              </li>
+              <li class="desc-item">
+                <h3 class="desc-title">Furniture</h3>
+                <p class="desc-desc">
+                  Movable articles that are used <br />
+                  to make a room or building <br />
+                  suitable for living or working.
+                </p>
+                <a href="#" class="desc-view">View More</a>
+              </li>
+              <li class="desc-item">
+                <h3 class="desc-title">Flooring</h3>
+                <p class="desc-desc">
+                  Thin object any finished <br />
+                  material applied over a floor <br />
+                  structure to provide a walking surface.
+                </p>
+                <a href="#" class="desc-view">View More</a>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
     </header>
