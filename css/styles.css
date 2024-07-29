@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --link-color: #292f36;
   --hover-link: #CDA274;
   --desc-color: #4D5053;
@@ -14,7 +14,7 @@
 
 .container {
   width: 1200px;
-
+outline: 1px solid red;
   margin: auto;
 }
 
@@ -463,6 +463,54 @@ letter-spacing: 0.22px;
 margin-top: 21px;
 }
 
+.join {
+  padding-top: 100px;
+  background-color: var(--link-color);
+  width: 1200px;
+height: 414px; 
+border-radius: 70px; 
+margin: auto;
+}
+
+.join-title {
+  color: var(--white);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0.22px;
+}
+
+.join-desc {
+  color: var(--white);
+text-align: center;
+font-family: 'Jost';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+margin-top: 9px;
+}
+
+.join-btn {
+  color: #FFF;
+font-family: 'Jost';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.22px;
+background-color: var(--hover-link);
+border-radius: 18px;
+border: none;
+width: 241px;
+height: 71px;
+flex-shrink: 0;
+text-align: center;
+}
 
 
 
