@@ -9,6 +9,7 @@
 .header {
     padding-top: 26px;
     justify-content: center;
+    padding-bottom: 26px;
 
 }
 
@@ -56,7 +57,6 @@ outline: 1px solid red;
     color: var(--hover-link)                ;
 }
 
-
 .hero {
     background-image: url(../img/hero-bcg.png);
     background-repeat: no-repeat;
@@ -74,8 +74,9 @@ font-family: "DM Serif Display";
 font-size: 80px;
 font-style: normal;
 font-weight: 400;
-line-height: 96px; 
+line-height: 96px;
 letter-spacing: 0.22px;
+    width: 597px;
 }
 
 .hero-desc {
@@ -88,6 +89,7 @@ letter-spacing: 0.22px;
 color: var(--desc-color);
 margin-top: 19px;
 margin-bottom: 35px;
+    width: 577px;
 }
 
 .hero-button {
@@ -98,15 +100,14 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 27px;
-letter-spacing: 0.72px; 
-width: 207px;
-height: 71px;
+letter-spacing: 0.72px;
 border-radius: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 34px;
+    padding-right: 67px;
 }
 
-.button-str {
-    color: var(--hover-link);
-}
 
 .desc {
     padding-top: 175px;
@@ -144,6 +145,7 @@ font-weight: 400;
 line-height: 33px;
 letter-spacing: 0.22px;
 margin-bottom: 35px;
+    width: 317px;
 }
 
 .desc-view {
@@ -162,87 +164,104 @@ display: flex;
   color: var(--hover-link);
 }
 
-.design {
-  padding-top: 100px;
-}
+ .design {
+     padding-top: 100px;
+ }
 
 
-.design-container {
-  display: flex;
-}
+ .design-container {
+     display: flex;
+ }
 
 
-.design-title {
-  color: var(--link-color);
-font-family: "DM Serif Display";
-font-size: 50px;
-font-style: normal;
-font-weight: 400;
-line-height: 65px;
-letter-spacing: 0.22px;
-margin-bottom: 42px;
-}
+ .design-title {
+     color: var(--link-color);
+     font-family: "DM Serif Display";
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 65px;
+     letter-spacing: 0.22px;
+     margin-bottom: 42px;
+ }
 
-.design-desc {
-  color: var(--desc-color);
-font-family: 'Jost';
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 33px; 
-letter-spacing: 0.22px;
-margin-bottom: 30px;
-padding-right: 61px;
-}
+ .design-desc {
+     color: var(--desc-color);
+     font-family: 'Jost';
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33px;
+     letter-spacing: 0.22px;
+     margin-bottom: 30px;
+     padding-right: 61px;
+ }
 
-.call-box {
-  display: flex;
-}
+ .design-box {
+     display: flex;
+     gap: 20px;
+     margin-bottom: 10px;
+     padding: 10.203px 264.688px 39.797px 0px;
+ }
 
-.design-call {
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-}
+ .call-box {
+     display: flex;
+ }
 
-.design-call::before {
-  content: "";
-  width: 93px;
-height: 93px;
-border-radius: 100px;
-background-color: var(--bcg);
-}
-
-.call-text {
-  color: var(--desc-color);
-font-family: 'Jost';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px; 
-letter-spacing: 0.22px;
-margin-left: 20px;
-margin-bottom: 68px;
-}
-
-.design-btn {
-  background-color: var(--link-color);
-  color: var(--white);
-font-family: 'Jost';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0.72px; 
-width: 207px;
-height: 71px;
-border-radius: 18px;
-}
+ .design-call {
+     justify-content: center;
+     width: 34px;
+     height: 34px;
+     background-color: var(--bcg);
+     padding: 29px;
+     border-radius: 100px;
+ }
 
 
-.design-img {
-  margin-left: 16px;
-}
+
+
+ .call-text {
+     color: var(--desc-color);
+     font-family: 'Jost';
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 36px;
+     letter-spacing: 0.22px;
+     margin-left: 20px;
+     margin-bottom: 68px;
+     width: 154px;
+ }
+
+ .call-time {
+     color: #4D5053;
+     font-family: 'Jost';
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33px; /* 150% */
+     letter-spacing: 0.22px;
+ }
+
+ .design-btn {
+     background-color: var(--link-color);
+     color: var(--white);
+     font-family: 'Jost';
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 27px;
+     letter-spacing: 0.72px;
+     width: 207px;
+     height: 71px;
+     border-radius: 18px;
+ }
+
+
+ .design-img {
+     margin-left: 16px;
+ }
+
 
 .people {
 padding-top: 139px;
@@ -253,38 +272,41 @@ background-color: var(--bcg);
 border-radius: 70px ;
 }
 
-.people-title {
-  color: var(--link-color);
-text-align: center;
-font-family: "DM Serif Display";
-font-size: 45px;
-font-style: normal;
-font-weight: 400;
-line-height: 58.5px;
-letter-spacing: 0.22px;
-}
+ .people-title {
+     color: var(--link-color);
+     text-align: center;
+     font-family: "DM Serif Display";
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 58.5px;
+     letter-spacing: 0.22px;
+     width: 479px;
+     padding-top: 103px;
+     margin: 0 auto;
+ }
 
 .people-list {
   display: flex;
   gap: 16px;
-  margin-top: 47px;
 justify-content: center;
 padding-bottom: 121px;
+    padding-top: 47px;
 }
 
 .people-item {
   border-radius: 30px;
   background-color: var(--white);
-  width: 354px;
-height: 287px; 
 }
 
-
-
+ .people-box {
+     display: flex;
+ }
 .people-img {
-width: 77px;
-height: 77px;   
-margin-right: 20px;    
+margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 35px;
+
 }
 
 .people-name {
@@ -317,6 +339,9 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.22px;
 margin-top: 25px;
+    margin-left: 24px;
+    margin-bottom: 45px;
+    margin-right: 75px;
 }  
 .partners {
   padding-top: 140px; 
@@ -496,7 +521,7 @@ margin-top: 9px;
 }
 
 .join-btn {
-  color: #FFF;
+  color: var(--white);
 font-family: 'Jost';
 font-size: 18px;
 font-style: normal;
