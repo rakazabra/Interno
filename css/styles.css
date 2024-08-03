@@ -588,6 +588,112 @@ margin-top: 9px;
     border: none;
 }
 
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+
+.footer-desc {
+    color: var(--desc-color);
+    font-family: 'Jost';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 326px;
+}
+
+.social-list {
+    display: flex;
+    gap: 40px;
+    padding-top: 19px;
+    padding-bottom: 14px;
+    margin-top: 9px;
+    align-items: center;
+}
+
+
+
+.footer-text {
+    margin-bottom: 30px;
+    color: var(--desc-color);
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.pages-list {
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.contact-item {
+    color: var(--desc-color);
+    font-family: 'Jost';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin-bottom: 29px;
+}
+
+.contact-item a {
+    color: var(--desc-color);
+}
+
+.address {
+    font-style: normal;
+    width: 321px;
+}
+
+#contact {
+    margin-bottom: 22px;
+}
+
+ .bold-item {
+     color: var(--link-color);
+     font-family: "DM Serif Display";
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 37.5px;
+     letter-spacing: 0.22px;
+     margin-bottom: 21px;
+ }
+
+.footer-copy {
+    text-align: center;
+    color: var(--desc-color);
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.footer-span {
+    color: var(--hover-link);
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
 
 
 
