@@ -588,6 +588,10 @@ margin-top: 9px;
     border: none;
 }
 
+.footer {
+    padding-top: 79px;
+}
+
 .footer-list {
     display: flex;
     gap: 16px;
