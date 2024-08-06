@@ -22,11 +22,15 @@ outline: 1px solid red;
 
 .header-box {
   display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    margin-right: 484px;
 }
 
 .header-logo {
     padding-top: 26px;
-    margin-right: 484px;
     padding-bottom: 12px;
 }
 
@@ -34,8 +38,6 @@ outline: 1px solid red;
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-top: 38px;
-  padding-bottom: 38px;
 }
 
 .nav-link {
@@ -62,8 +64,6 @@ outline: 1px solid red;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1200px;
-    height: 831px;
     margin: auto;
     padding-top: 188px;
 }
@@ -128,6 +128,10 @@ font-weight: 400;
 line-height: 39px;
 letter-spacing: 0.22px;
 margin-bottom: 17px;
+    padding-top: 75px;
+    padding-right: 113px;
+    padding-left: 113px;
+    width: 174px;
 }
 
 #first-desc {
