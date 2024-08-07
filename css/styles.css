@@ -29,10 +29,7 @@
     margin-right: 484px;
 }
 
-.header-logo {
-    padding-top: 26px;
-    padding-bottom: 12px;
-}
+
 
 .nav-list {
   display: flex;
@@ -60,12 +57,13 @@
 }
 
 .hero {
-    background-image: url(../img/hero-bcg.png);
+    background-image: url(../img/hero-bcg-i.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: auto;
     padding-top: 188px;
+    padding-bottom: 260px;
 }
 
 .hero-logo {
@@ -109,7 +107,7 @@ border-radius: 18px;
 }
 
 
-.desc {
+.ddesc {
     padding-top: 175px;
 }
 
