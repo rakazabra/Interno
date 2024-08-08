@@ -4,6 +4,7 @@
   --desc-color: #4D5053;
   --white: #fff;
   --bcg: #F4F0EC;
+  --footer-color: #E5E5E5;
 }
 
 .header {
@@ -64,6 +65,8 @@
     margin: auto;
     padding-top: 188px;
     padding-bottom: 260px;
+    border-radius: 0px 0px 0px 290px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat, #CDA274;
 }
 
 .hero-logo {
@@ -107,7 +110,7 @@ border-radius: 18px;
 }
 
 
-.ddesc {
+.desc {
     padding-top: 175px;
 }
 
@@ -128,14 +131,11 @@ letter-spacing: 0.22px;
 margin-bottom: 17px;
 }
 
-
-
-.decs-item {
+.desc-item {
   padding-top: 75px;
   padding-right: 41px;
   padding-left: 42px;
   padding-bottom: 70px;
-  text-align: center;
 }
 
 .desc-item:nth-child(2) {
@@ -463,9 +463,17 @@ margin-left: auto;
 }
 
 .years-list {
+  align-items: center;
   display: flex;
-gap: 207px;
   justify-content: center;
+}
+
+.year-item {
+  padding-top: 14px;
+  padding-left: 33px;
+  padding-bottom: 10px;
+  padding-right: 55px;
+  border-right: 1px solid var(--hover-link);
 }
 
 .year-title {
@@ -489,6 +497,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 33px;
 letter-spacing: 0.22px;
+width: 200px;
 }
 
 
@@ -737,6 +746,9 @@ margin-top: 9px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    border-top: 1px solid var(--footer-color);
+    padding-top: 35px;
+    padding-bottom: 36px;
 }
 
 .footer-span {
