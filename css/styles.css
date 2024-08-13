@@ -736,6 +736,8 @@ margin-top: 9px;
      margin-bottom: 21px;
  }
 
+
+ 
 .footer-copy {
     text-align: center;
     color: var(--desc-color);
@@ -750,6 +752,8 @@ margin-top: 9px;
     padding-top: 35px;
     padding-bottom: 36px;
 }
+
+
 
 .footer-span {
     color: var(--hover-link);
